@@ -1,5 +1,6 @@
 function [ root,xit,n] = bisection( func, a, b, tol)
-% Funktionsaufruf:
+% calculates root of given function func in interval a,b such that absolute error is smaller than tol
+% xit is vector containing root approximations and n the number of iterations needed
     if func(a)*func(b)>=0
         return
     end
