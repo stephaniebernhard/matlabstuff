@@ -1,4 +1,4 @@
-function [ root,xit,n] = Bernhard_Stephanie_IT16tb_ZH08_S4_Aufg2( func, a, b, tol)
+function [ root,xit,n] = bisection( func, a, b, tol)
 % Funktionsaufruf:
     if func(a)*func(b)>=0
         return
